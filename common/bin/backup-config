@@ -1,0 +1,28 @@
+#!/bin/bash
+
+CMD_BAK="/usr/bin/rdiff-backup --print-statistics --tempdir /var/tmp --no-hard-links"
+CMD_CLR="/usr/bin/rdiff-backup --print-statistics --tempdir /var/tmp --force --remove-older-than 365D"
+CMD_VER="/usr/bin/rdiff-backup --print-statistics --tempdir /var/tmp --verify"
+BAKDIR="/var/backup-config"
+LOGFILE="/var/log/backup-config.log"
+TMPFILE="/tmp/backup"
+
+blog () {
+        echo -e "\n######## $* ########" >> $TMPFILE 2>&1
+}
+
+elog () {
+        cat $TMPFILE >> $LOGFILE
+        rm -rf $TMPFILE
+}
+
+runcmd () {
+        eval $* >> $TMPFILE 2>&1
+}
+
+blog "rdiff-backup /etc"
+runcmd "$CMD_BAK /etc $BAKDIR/etc"
+runcmd "$CMD_CLR      $BAKDIR/etc"
+runcmd "$CMD_VER      $BAKDIR/etc"
+
+elog "Config Daily Backup"

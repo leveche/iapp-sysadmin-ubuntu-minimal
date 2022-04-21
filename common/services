@@ -1,0 +1,2 @@
+base:     ssh ntpd rsyslog cron
+monitor:  monitorix smartd vnstat snmp
