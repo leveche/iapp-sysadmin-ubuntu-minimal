@@ -1,0 +1,25 @@
+# 230=8+128+4+8+82
+sgdisk -og /dev/sda
+sgdisk -n 1:2048:264191         -c 1:"BIOS Boot Partition" -t 1:ef02  /dev/sda
+sgdisk -n 2:264192:17303551     -c 2:"Linux filesystem"    -t 2:8300  /dev/sda
+sgdisk -n 3:17303552:289933311  -c 3:"Linux filesystem"    -t 3:8300  /dev/sda
+sgdisk -n 4:289933312:298452991 -c 4:"Linux filesystem"    -t 4:8300  /dev/sda
+sgdisk -n 5:298452992:315230207 -c 5:"Linux swap"          -t 5:8200  /dev/sda
+sgdisk -n 6:315230208:0         -c 6:"Linux filesystem"    -t 6:8300  /dev/sda
+
+# 134=8+64+4+8+50
+sgdisk -og /dev/sda
+sgdisk -n 1:2048:264191         -c 1:"BIOS Boot Partition" -t 1:ef02  /dev/sda
+sgdisk -n 2:264192:17303551     -c 2:"Linux filesystem"    -t 2:8300  /dev/sda
+sgdisk -n 3:17303552:153618431  -c 3:"Linux filesystem"    -t 3:8300  /dev/sda
+sgdisk -n 4:153618432:162138111 -c 4:"Linux filesystem"    -t 4:8300  /dev/sda
+sgdisk -n 5:162138112:178915327 -c 5:"Linux swap"          -t 5:8200  /dev/sda
+sgdisk -n 6:178915328:0         -c 6:"Linux filesystem"    -t 6:8300  /dev/sda
+
+# 68=8+48+4+4
+sgdisk -og /dev/sda
+sgdisk -n 1:2048:264191         -c 1:"BIOS Boot Partition" -t 1:ef02  /dev/sda
+sgdisk -n 2:264192:17573887     -c 2:"Linux filesystem"    -t 2:8300  /dev/sda
+sgdisk -n 3:17573888:120107007  -c 3:"Linux filesystem"    -t 3:8300  /dev/sda
+sgdisk -n 4:120107008:128894975 -c 4:"Linux filesystem"    -t 4:8300  /dev/sda
+sgdisk -n 5:128894976:137283583 -c 5:"Linux swap"          -t 5:8200  /dev/sda

@@ -1,0 +1,8 @@
+grub-install /dev/sda
+update-initramfs -u
+update-grub
+rm /etc/udev/rules.d/70-persistent*
+update hostname
+update IP address
+update smartd
+update ssmtp

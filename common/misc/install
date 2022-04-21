@@ -1,0 +1,27 @@
+Boot from Ubuntu Server 12.04/14.04 LTS edition
+F4 - select "Install a minimal system/virtual machine"
+F6 - select "Expert Mode"
+Language: English
+Country:  Canada
+Locales:  en_CA.UTF-8
+Network:
+	- IP Address, Netmask, Gateway, DNS Server
+	- Host Name, Domain Name
+Users:
+	- Enable shadow passwords
+	- Allow login as root
+	- Don't create users
+Timezone: America/Edmonton
+Disk Partitioning:
+	- create GPT partition table
+	- /dev/sda2: /
+	- /dev/sda3: /var
+	- /dev/sda4: /tmp
+	- /dev/sda5: swap
+Software repositories: ca.archive.ubuntu.com
+	- $release: main, restricted, universe, multiverse
+	- $release-updates: main, restricted, universe, multiverse
+	- $release-security: main, restricted, universe, multiverse
+Software install: don't install any software
+Boot loader: install GRUB to master boot record
+Finish installation and boot into the new system
