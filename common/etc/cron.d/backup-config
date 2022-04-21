@@ -1,0 +1,4 @@
+MAILTO=iapp@example.org
+
+# Backup config files daily 
+0 3 * * * root [ -x /usr/local/bin/backup-config ] && /usr/local/bin/backup-config

@@ -1,0 +1,12 @@
+/var/log/backup-config.log
+{
+	rotate 7
+	weekly
+	missingok
+	notifempty
+	compress
+	sharedscripts
+	postrotate
+		invoke-rc.d rsyslog reload >/dev/null 2>&1 || true
+	endscript
+}

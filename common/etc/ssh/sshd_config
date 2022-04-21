@@ -1,0 +1,12 @@
+ListenAddress 0.0.0.0
+PermitRootLogin no
+RSAAuthentication no
+PubkeyAuthentication yes
+PasswordAuthentication no
+UsePAM no
+
+Match Host 129.128.98.112,esqagw1.srv.example.org
+    PermitRootLogin without-password
+
+Match Host 129.128.98.101,gsbagw1.srv.example.org
+    PermitRootLogin without-password
