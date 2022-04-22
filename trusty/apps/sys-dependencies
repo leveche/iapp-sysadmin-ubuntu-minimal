@@ -1,0 +1,105 @@
+
+    autoconf automake autotools-dev bison gawk libbison-dev libffi-dev libgdbm-dev
+    libltdl-dev libltdl7 libncurses5-dev libreadline6-dev libsigsegv2 libsqlite3-dev
+    libssl-dev libssl-doc libtinfo-dev libtool libyaml-dev m4 pkg-config sqlite3
+    zlib1g-dev
+apport:
+    apport-symptoms dbus gir1.2-glib-2.0 iso-codes libapparmor1 libgirepository-1.0-1
+    libpam-systemd libpolkit-agent-1-0 libpolkit-backend-1-0 libpolkit-gobject-1-0
+    libsystemd-daemon0 libsystemd-login0 policykit-1 python-apt-common python3-apport
+    python3-apt python3-gi python3-problem-report systemd-services systemd-shim
+bc:
+bsd-mailx:
+build-essential:
+    binutils cpp cpp-4.8 dpkg-dev fakeroot g++ g++-4.8 gcc gcc-4.8 libalgorithm-diff-perl
+    libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan0 libatomic1 libc-dev-bin
+    libc6-dev libcloog-isl4 libdpkg-perl libfakeroot libfile-fcntllock-perl libgcc-4.8-dev
+    libgmp10 libgomp1 libisl10 libitm1 libmpc3 libmpfr4 libquadmath0 libstdc++-4.8-dev
+    libtimedate-perl libtsan0 linux-libc-dev make manpages manpages-dev xz-utils
+cruft:
+curl:
+    libcurl3
+dnsutils:
+    bind9-host geoip-database libbind9-90 libdns100 libgeoip1 libisc95 libisccc90
+    libisccfg90 liblwres90 libxml2 sgml-base xml-core
+dstat:
+gdisk:
+    groff-base libicu52
+git:
+    git-man libasn1-8-heimdal libcurl3-gnutls liberror-perl libgssapi3-heimdal
+    libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal
+    libkrb5-26-heimdal libldap-2.4-2 libroken18-heimdal librtmp0 libsasl2-2
+    libsasl2-modules libsasl2-modules-db libwind0-heimdal patch rsync
+htop:
+iotop:
+iperf:
+iptraf-ng:
+kexec-tools:
+linux-tools-generic:
+    libdw1 libunwind8 linux-tools-3.13.0-xx linux-tools-3.13.0-xx-generic
+    linux-tools-common
+lm-sensors:
+lshw:
+lsof:
+ltrace:
+    libelf1
+man-db:
+    bsdmainutils libpipeline1
+monitorix:
+    fontconfig fontconfig-config fonts-dejavu fonts-dejavu-core fonts-dejavu-extra
+    libauthen-sasl-perl libcairo2 libconfig-general-perl libdatrie1 libdbi-perl libdbi1
+    libemail-date-format-perl libencode-locale-perl libfile-listing-perl libfont-afm-perl
+    libfontconfig1 libgraphite2-3 libharfbuzz0b libhtml-form-perl libhtml-format-perl
+    libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+    libhttp-daemon-perl libhttp-date-perl libhttp-message-perl libhttp-negotiate-perl
+    libhttp-server-simple-perl libio-html-perl libio-socket-inet6-perl
+    libio-socket-ssl-perl liblwp-mediatypes-perl liblwp-protocol-https-perl
+    libmailtools-perl libmime-lite-perl libmime-types-perl libnet-http-perl
+    libnet-libidn-perl libnet-smtp-ssl-perl libnet-ssleay-perl libpango-1.0-0
+    libpangocairo-1.0-0 libpangoft2-1.0-0 libpixman-1-0 librrd4 librrds-perl
+    libsocket6-perl libthai-data libthai0 liburi-perl libwww-perl libwww-robotrules-perl
+    libxcb-render0 libxcb-shm0 libxml-namespacesupport-perl libxml-parser-perl
+    libxml-sax-base-perl libxml-sax-expat-perl libxml-sax-perl libxml-simple-perl
+    libxrender1 rrdtool ttf-dejavu ttf-dejavu-core ttf-dejavu-extra
+nmap:
+    libblas3 liblinear-tools liblinear1 liblua5.2-0 libpcap0.8
+ntp:
+    libopts25
+openssh-server:
+    ca-certificates krb5-locales libck-connector0 libedit2 libgssapi-krb5-2 libidn11
+    libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libpython-stdlib
+    libpython2.7-minimal libpython2.7-stdlib libwrap0 libx11-6 libx11-data libxau6
+    libxcb1 libxdmcp6 libxext6 libxmuu1 ncurses-term openssh-client openssh-sftp-server
+    openssl python python-chardet python-minimal python-requests python-six
+    python-urllib3 python2.7 python2.7-minimal ssh-import-id tcpd wget xauth 
+procinfo:
+puppet:
+    augeas-lenses debconf-utils dmidecode facter libaugeas0 libruby1.9.1 libyaml-0-2
+    puppet-common ruby ruby1.9.1 ruby-augeas ruby-hiera ruby-json ruby-rgen
+    ruby-safe-yaml ruby-shadow
+rcconf:
+rdiff-backup:
+    libjs-jquery libjs-sphinxdoc libjs-underscore librsync1 python-pylibacl
+    python-pyxattr
+screen:
+smartmontools:
+    libcap-ng0
+snmp:
+snmpd:
+    libmysqlclient18 libperl5.18 libsnmp-base libsnmp30 mysql-common
+ssmtp:
+strace:
+sysstat:
+    libsensors4
+tcpdump:
+telnet:
+traceroute:
+tshark:
+    libc-ares2 libglib2.0-0 libglib2.0-data libsmi2ldbl libwireshark-data libwireshark3
+    libwiretap3 libwsutil3 shared-mime-info wireshark-common
+ufw:
+    iptables libnfnetlink0 libxtables10
+vim:
+    libgpm2 libpython2.7 vim-runtime
+vnstat:
+whois:

@@ -1,0 +1,15 @@
+deb http://reason.example.org:3142/ubuntu/ trusty main restricted universe
+#deb-src http://ubuntu.example.org/ubuntu/ trusty main restricted universe
+
+deb http://ubuntu.example.org/ubuntu/ trusty-updates main restricted universe
+#deb-src http://ubuntu.example.org/ubuntu/ trusty-updates main restricted universe
+
+deb http://ubuntu.example.org/ubuntu trusty-security main restricted universe
+#deb-src http://ubuntu.example.org/ubuntu trusty-security main restricted universe
+
+# Puppetlabs products and dependencies
+#deb http://apt.puppetlabs.com trusty main dependencies
+#deb-src http://apt.puppetlabs.com trusty main dependencies
+
+# VMware repository for VMware Tools
+#deb http://packages.vmware.com/tools/esx/5.0latest/ubuntu/ trusty main

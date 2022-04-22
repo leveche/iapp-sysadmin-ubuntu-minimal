@@ -1,0 +1,36 @@
+apache2-dev:
+    comerr-dev krb5-multidev libapr1 libapr1-dev libaprutil1 libaprutil1-dev
+    libexpat1-dev libgssrpc4 libkadm5clnt-mit9 libkadm5srv-mit9 libkdb5-7
+    libldap2-dev libmysqlclient-dev libpcre3-dev libpcrecpp0 libpq-dev libpq5
+    libsctp-dev libsctp1 lksctp-tools uuid-dev
+checkinstall:
+debhelper:
+    dh-apparmor gettext intltool-debian libasprintf-dev libcroco3 libgettextpo-dev
+    libgettextpo0 libmail-sendmail-perl libsys-hostname-long-perl libunistring0
+    po-debconf
+devscripts:
+    at dctrl-tools diffstat distro-info-data dput hardening-includes libapt-pkg-perl
+    libarchive-zip-perl libautodie-perl libclass-accessor-perl libclone-perl
+    libcommon-sense-perl libdigest-hmac-perl libdistro-info-perl libemail-valid-perl
+    libexporter-lite-perl libfile-basedir-perl libio-pty-perl libio-string-perl
+    libio-stringy-perl libipc-run-perl libipc-system-simple-perl libjson-perl
+    libjson-xs-perl liblist-moreutils-perl libnet-dns-perl libnet-domain-tld-perl
+    libnet-ip-perl libparse-debcontrol-perl libparse-debianchangelog-perl
+    libperlio-gzip-perl libsub-identify-perl libsub-name-perl libtext-levenshtein-perl
+    libtie-ixhash-perl lintian patchutils python3-chardet python3-debian python3-magic
+    python3-six t1utils unzip wdiff
+dh-autoreconf:
+    autopoint
+libcurl4-openssl-dev:
+    libgnutls-dev libgnutlsxx27 libidn11-dev libkrb5-dev libp11-kit-dev librtmp-dev
+    libtasn1-6-dev
+libdb5.3-dev:
+libgcrypt11-dev:
+    libgpg-error-dev
+libperl-dev:
+libsasl2-dev:
+libslp-dev:
+    libslp1
+libwrap0-dev:
+quilt:
+time:

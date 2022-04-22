@@ -1,0 +1,1 @@
+../../ubuntu/etc/rsyslog.d
