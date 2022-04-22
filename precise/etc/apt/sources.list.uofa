@@ -1,0 +1,15 @@
+deb http://ubuntu-mirror.srv.example.org/monthly-0/ precise main restricted universe
+#deb-src http://ubuntu-mirror.srv.example.org/monthly-0/ precise main restricted universe
+
+deb http://ubuntu-mirror.srv.example.org/monthly-0/ precise-updates main restricted universe
+#deb-src http://ubuntu-mirror.srv.example.org/monthly-0/ precise-updates main restricted universe
+
+deb http://ubuntu-mirror.srv.example.org/monthly-0 precise-security main restricted universe
+#deb-src http://ubuntu-mirror.srv.example.org/monthly-0 precise-security main restricted universe
+
+# Puppetlabs products and dependencies
+#deb http://apt.puppetlabs.com precise main dependencies
+#deb-src http://apt.puppetlabs.com precise main dependencies
+
+# VMware repository for VMware Tools
+#deb http://packages.vmware.com/tools/esx/5.0latest/ubuntu/ precise main

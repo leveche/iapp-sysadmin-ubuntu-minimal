@@ -1,0 +1,10 @@
+base:     openssh-server openntpd rcconf gdisk man-db ufw
+mail:     ssmtp bsd-mailx
+net:      dnsutils whois traceroute telnet
+tools:    git rsync curl nmap vim lsof lshw bc cruft screen
+stats:    htop iotop iperf procinfo sysstat dstat iptraf
+sysmon:   snmpd snmp vnstat smartmontools lm-sensors
+debug:    ltrace strace tcpdump tshark linux-tools apport kexec-tools
+config:   puppetlabs-release puppet rdiff-backup bacula-enterprise-client
+vmware:   linux-headers-generic/virtual build-essential
+other:    monitorix 

@@ -1,0 +1,99 @@
+apport:
+    apport-symptoms gir1.2-glib-2.0 iso-codes libgirepository-1.0-1 libjs-jquery
+    python-apport python-apt python-apt-common python-crypto python-gi python-httplib2
+    python-keyring python-launchpadlib python-lazr.restfulclient python-lazr.uri
+    python-oauth python-pkg-resources python-problem-report python-simplejson
+    python-wadllib python-zope.interface xz-lzma
+bacula-enterprise-client:
+    bacula-enterprise-common bacula-enterprise-console liblzo2-2
+bc:
+bsd-mailx:
+build-essential:
+    binutils cpp cpp-4.6 dpkg-dev fakeroot g++ g++-4.6 gcc gcc-4.6 libalgorithm-diff-perl
+    libalgorithm-diff-xs-perl libalgorithm-merge-perl libc-dev-bin libc6-dev libdpkg-perl
+    libgmp10 libgomp1 libmpc2 libmpfr4 libquadmath0 libstdc++6-4.6-dev libtimedate-perl
+    linux-libc-dev make manpages manpages-dev
+cruft:
+curl:
+    libcurl3
+dnsutils:
+    bind9-host geoip-database-contrib libbind9-80 libdns81 libgeoip1 libisc83 libisccc80
+    libisccfg82 liblwres80 libxml2 sgml-base xml-core
+dstat:
+gdisk:
+    groff-base libicu48
+git:
+    git-man libasn1-8-heimdal libcurl3-gnutls liberror-perl libgssapi3-heimdal
+    libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal
+    libkrb5-26-heimdal libldap-2.4-2 libroken18-heimdal librtmp0 libsasl2-2
+    libsasl2-modules libwind0-heimdal patch
+htop:
+iotop:
+iperf:
+kexec-tools:
+    crash libdw1 makedumpfile
+linux-headers-generic/virtual:
+    linux-headers-3.2.0-xx linux-headers-3.2.0-xx-generic/virtual
+linux-tools:
+    linux-tools-3.2.0-58 linux-tools-common
+lm-sensors:
+lshw:
+lsof:
+ltrace:
+    libelf1
+man-db:
+    bsdmainutils libpipeline1
+monitorix:
+    fontconfig fontconfig-config libcairo2 libconfig-general-perl libdatrie1 libdbi-perl
+    libdbi1 libemail-date-format-perl libencode-locale-perl libfile-listing-perl
+    libfont-afm-perl libfontconfig1 libhtml-form-perl libhtml-format-perl
+    libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+    libhttp-daemon-perl libhttp-date-perl libhttp-message-perl libhttp-negotiate-perl
+    libhttp-server-simple-perl libio-socket-inet6-perl libio-socket-ssl-perl
+    liblwp-mediatypes-perl liblwp-protocol-https-perl libmailtools-perl libmime-lite-perl
+    libmime-types-perl libnet-daemon-perl libnet-http-perl libnet-ssleay-perl
+    libpango1.0-0 libpixman-1-0 libplrpc-perl librrd4 librrds-perl libsocket6-perl
+    libthai-data libthai0 liburi-perl libwww-perl libwww-robotrules-perl libxcb-render0
+    libxcb-shm0 libxft2 libxml-namespacesupport-perl libxml-parser-perl
+    libxml-sax-base-perl libxml-sax-expat-perl libxml-sax-perl libxml-simple-perl
+    libxrender1 rrdtool ttf-dejavu ttf-dejavu-core ttf-dejavu-extra
+nmap:
+    liblua5.1-0 libpcap0.8
+openntpd:
+openssh-server:
+    ca-certificates krb5-locales libbsd0 libedit2 libgssapi-krb5-2 libidn11 libk5crypto3
+    libkeyutils1 libkrb5-3 libkrb5support0 libwrap0 libx11-6 libx11-data libxau6 libxcb1
+    libxdmcp6 libxext6 libxmuu1 openssh-client openssl ssh-import-id tcpd wget xauth
+procinfo:
+puppet:
+    augeas-lenses debconf-utils dmidecode facter hiera libaugeas-ruby libaugeas-ruby1.8
+    libaugeas0 libjson-ruby libreadline5 libruby libruby1.8 libshadow-ruby1.8
+    puppet-common ruby ruby-json ruby-rgen ruby1.8 virt-what
+puppetlabs-release:
+rcconf:
+    dialog libclass-isa-perl libgdbm3 libswitch-perl perl perl-modules
+rdiff-backup:
+    librsync1 python-pylibacl python-pyxattr
+rsync:
+screen:
+smartmontools:
+    libcap-ng0
+snmp:
+snmpd:
+    libperl5.14 libsensors4 libsnmp-base libsnmp15
+ssmtp:
+    libgcrypt11 libgnutls-openssl27 libgnutls26 libgpg-error0 libp11-kit0 libtasn1-3
+strace:
+sysstat:
+tcpdump:
+telnet:
+traceroute:
+tshark:
+    libc-ares2 libcap2 libcap2-bin libpam-cap libsmi2ldbl libwireshark-data
+    libwireshark1 libwiretap1 libwsutil1 wireshark-common
+ufw:
+    iptables libnfnetlink0
+vim:
+    libgpm2 libpython2.7 vim-runtime
+vnstat:
+whois:
